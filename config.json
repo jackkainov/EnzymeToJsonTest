@@ -1,0 +1,10 @@
+{
+  "moduleFileExtensions": ["js", "json"],
+  "scriptPreprocessor": "preprocessor.js",
+  "testRegex": ".*\\.test\\.(js)$",
+  "collectCoverageFrom": ["*.{js}"],
+  "coverageDirectory": "./coverage",
+  "coverageReporters": ["text-summary", "html", "cobertura"],
+  "verbose": true,
+  "testPathIgnorePatterns": ["node_modules/"]
+}
